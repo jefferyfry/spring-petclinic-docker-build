@@ -13,6 +13,7 @@ This is an example of running Docker builds on CloudBees Core on Kubernetes (GKE
 3. Select _Configure_.
 4. Here you will add a Kubernetes Pod Template and add the containers you need. The Pod Templates are available to all masters. For this project, these values were specified:
 <img width="700" alt="pod_template" src="https://user-images.githubusercontent.com/6440106/43618763-10c25244-967f-11e8-92ec-adb45a130957.png"> 
-5. Then see the [Jenkinsfile](https://github.com/jefferyfry/spring-petclinic-docker-build/blob/master/Jenkinsfile) for an example pipeline of how these containers are used to do the maven build, docker build and push to the registry.
+5. Then see the [Jenkinsfile](https://github.com/jefferyfry/spring-petclinic-docker-build/blob/master/Jenkinsfile) 
+for an example pipeline of how these containers are used to do the maven build, docker build and push to the registry.
 6. In this example, DockerHub is used. Add your credentials for DockerHub so that they can be referenced by the pipeline.
 <img width="1265" alt="credentials" src="https://user-images.githubusercontent.com/6440106/43618773-243c4b0e-967f-11e8-8e80-1e3555410640.png">
