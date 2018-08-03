@@ -2,6 +2,9 @@
 
 This is an example of running Docker builds on CloudBees Core on Kubernetes (GKE). This example runs a maven build, docker build and pushes the image to docker hub.
 
+## Requirements
+- CloudBees Core 1.212.2.1 with Kubernetes Plugin 1.7.1
+
 ## Setup
 
 1. In CJOC, go to the top level Jenkins navigation and select the _All_ tab.
