@@ -15,7 +15,7 @@ This is an example of running Docker builds on CloudBees Core on Kubernetes (GKE
 
 4. Here you will add a Kubernetes Pod Template and add the containers you need. The Pod Templates are available to all masters. For this project, these values were specified:
 <img width="700" alt="pod_template" src="https://user-images.githubusercontent.com/6440106/43618763-10c25244-967f-11e8-92ec-adb45a130957.png"> 
-In some cases docker.sock is in a different location. Use _ADD Environment Variable_ to specify DOCKER_HOST = \<path\>. Example DOCKER\_HOST=unix:///var/vcap/sys/run/docker/docker.sock
+In some cases docker.sock is in a different location. Use _ADD Environment Variable_ to specify DOCKER_HOST = _path_. Example DOCKER_HOST=unix:///var/vcap/sys/run/docker/docker.sock
 
 5. Then see the Jenkinsfile for an example pipeline of how these containers are used to do the maven build, docker build and push to the registry.
 
