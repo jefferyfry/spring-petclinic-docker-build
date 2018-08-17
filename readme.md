@@ -1,6 +1,6 @@
 # Spring PetClinic Docker Build Example
 
-This is an example of running Docker builds on CloudBees Core on Kubernetes (GKE). This example runs a maven build, docker build and pushes the image to docker hub.
+This is an example of running Docker builds on CloudBees Core on Kubernetes using agent pod configuration through the Jenkins configuration UI. This example runs a maven build, docker build and pushes the image to docker hub. For an example of how to use agent pod templates see this [repo](https://github.com/jefferyfry/spring-petclinic-docker-build-podTemplate).
 
 ## Requirements
 - CloudBees Core 1.212.2.1 with Kubernetes Plugin 1.7.1
