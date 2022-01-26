@@ -1,5 +1,7 @@
 # Spring PetClinic Docker Build Example
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/ddd3b919-206d-4e01-961b-39d0f0006cbd.svg?orgId=604336610407)](https://app.soluble.cloud/repos/details/github.com/jefferyfry/spring-petclinic-docker-build?orgId=604336610407)  
+
 This is an example of running Docker builds on CloudBees Core on Kubernetes using agent pod configuration through the Jenkins configuration UI. This example runs a maven build, docker build and pushes the image to docker hub. For an example of how to use agent pod templates see this [repo](https://github.com/jefferyfry/spring-petclinic-docker-build-podTemplate).
 
 ## Requirements
